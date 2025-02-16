@@ -21,8 +21,8 @@ service = Service("chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Define the range of job IDs to scrape
-start_id = 10580000
-end_id = 10582000
+start_id = 10595000 
+end_id = 10600000
 base_url = "https://www.camhr.com/a/job/{}"
 
 # Define the columns for the CSV file
